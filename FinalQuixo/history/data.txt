@@ -1,0 +1,35 @@
+Move(row=0, col=0, direction=Direction(name: BOTTOM, value: 2))
+Player: 1
+Winner: None
+[[0 0 0]
+ [0 0 0]
+ [0 0 0]]
+======================>
+Move(row=2, col=1, direction=Direction(name: RIGHT, value: 3))
+Player: -1
+Winner: None
+[[0 0 0]
+ [0 0 0]
+ [1 0 0]]
+======================>
+Move(row=0, col=0, direction=Direction(name: BOTTOM, value: 2))
+Player: 1
+Winner: None
+[[ 0  0  0]
+ [ 0  0  0]
+ [ 1  0 -1]]
+======================>
+Move(row=0, col=0, direction=Direction(name: BOTTOM, value: 2))
+Player: -1
+Winner: None
+[[ 0  0  0]
+ [ 1  0  0]
+ [ 1  0 -1]]
+======================>
+Move(row=2, col=1, direction=Direction(name: LEFT, value: 1))
+Player: 1
+Winner: None
+[[ 1  0  0]
+ [ 1  0  0]
+ [-1  0 -1]]
+======================>
